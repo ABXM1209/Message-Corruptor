@@ -1,4 +1,4 @@
-package com.abxm.messageencryptordecryptor;
+package com.abxm.messageencryptordecryptor.simpleCorruptors;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

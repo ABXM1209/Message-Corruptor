@@ -1,4 +1,4 @@
-package com.abxm.messageencryptordecryptor;
+package com.abxm.messageencryptordecryptor.simpleCorruptors;
 
 import java.util.Scanner;
 import java.util.Random;
