@@ -36,7 +36,7 @@ public class CorruptorController {
         StringBuilder corrupted = new StringBuilder(input);
 
         for (int i = 0; i < corrupted.length(); i++) {
-            if (random.nextInt(100) < percent && corrupted.charAt(i) != ' ' && corrupted.charAt(i) != '.'&& corrupted.charAt(i) != '-' && corrupted.charAt(i) != ',') {
+            if (random.nextInt(100) < percent && corrupted.charAt(i) != ' ' && corrupted.charAt(i) != '.'&& corrupted.charAt(i) != '-' && corrupted.charAt(i) != ',' && corrupted.charAt(i) != ':' && corrupted.charAt(i) != ';' && corrupted.charAt(i) != '?') {
                 int glyphIndex = random.nextInt(glyphs.length());
                 corrupted.setCharAt(i, glyphs.charAt(glyphIndex));
             }
